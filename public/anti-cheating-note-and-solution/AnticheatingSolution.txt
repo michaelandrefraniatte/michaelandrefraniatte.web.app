@@ -1,0 +1,400 @@
+- Press shift and click at same time on restart to refresh your PC
+- Don't wire ethernet and disable every features when you refreshing your PC
+- Set your prefered screen color for desktop and task bar
+- Disable features of task bar and notifications
+- Disable sleep mode when you don't touch your PC
+- Set to higher level UAC from control panel
+- Uninstall all programs but let ethernet card, audio and video drivers
+- Disable all functionnalites but let framework 3.5
+- Uninstall all redistributable packages and install redistributable packages in redist/
+- Set better performance and disable remote connection from advanced system under control panel
+- Delete C:\Windows\System32\wlanext.exe, C:\Windows\System32\ibtsiva.exe, and C:\Program Files\Intel\WiFi (dllhost), and use ethernet wire
+- Use wired ethernet for your gaming PC and use WiFi with MAC filter for your other devices
+- Use Windows firewall with rules imported from Toolkit/firewall/firewall.wfw
+- Install your prefered launcher, downloaded from edge, for downloading and playing your prefered games
+- Launch often Toolkit/cmd/boot.cmd and just after you refresh your PC without wire ethernet, but game configurations or progress aren't saved, so use Toolkit/cmd/bootconfig.cmd or Toolkit/cmd/bootsave.cmd
+- Repair files often from your prefered launcher and set automatically close launcher when game starts
+- Change your PC internal IP in IPv4 properties when you can't connect into the games
+- Revert all advanced settings of network card, and change often ethernet network card MAC address with always same two first numbers (mac/NetworkMac.exe)
+- Report and block every cheaters under social tab
+- Set UAC to highest level from control panel
+- Set Windows defender tools to highest levels (accept only call of duty and mmc to access folders, Toolkit/exploit/), add C:\Windows\System32\wbem\unsecapp.exe, and C:\Windows\System32\dllhost.exe, wmic, powershell, conhost, ShellExperienceHost to exploit protection with all features enable 
+- Disable useless services (all intel services) under administrative tools from control panel (Ebook/)
+- Set better graphic performance option for your game from display properties under graphic parameters 
+- Delete all tasks under task scheduler from administrative tools in control panel
+- Set modem/router firewall to allow all ports for your gaming PC but only port 80 and 443 in TCP for your other devices (modem/)
+- Disable UpNp and IPv6 on your modem/router under network tab
+- Disable Windows Defender AntiSpyware, open the Run command with Win+R, type regedit, create the following key DisableAntiSpyware 1 (DWORD 32 bits) in, HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+- Download NVidia drivers using iexplorer.exe but in my case I prefer to not update my GPU because of my games crashing after update
+- Use Windows firewall rules, exploit protection and folder access as anti-cheats
+- For each Windows application, go to parameters of it by clicking right on it and disable background running
+- Disable all ethernet network card features from properties and let only Ipv4 installed from network properties
+- Enable all exploit protection under default system settings
+- Shut down execution of unwanted applications using exploit protection but not those in SimpleBoost\SimpleBoost\SimpleBoost\bin\x64\Release\sbwhitelist.txt
+- Add your games and applications for access folders (D:/, C:/) you protected
+- Set UAC from control panel to maximum level
+- Norton 360 gaming is useless for optimization and/or security
+- Update your Windows PC and repair install if not want updating (Toolkit/application/Windows10Upgrade9252.exe)
+- With Logi (Logitech) Z207 Stereo, and 2 PC, one connecting with bluetooth, the other with jack wire, it's possible to listen music while playing games
+- For better sound quality listening music, choose to tweeck audio settings in integrated equalizer like with audio control on HP computers, and also to use wired jack for looseless audio packets and no arsen in your hears (bluetooth is annoying for that), disable microphone and stereo mixer under sound properties, and shut down system sound from mixer
+- Set the command line parameters -d3d11, to launch games with DirectX 11 for better performance, from your game settings under Battle.net parameters
+- Disable Windows Defender: Open the Run command with Win+R, type regedit, create the following key DisableAntiSpyware 1 (DWORD 32 bits) in, HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender
+- Set your screen resolution to 800x600 and no scaling from your graphic card control panel instead from Windows settings, for better game performance, and disable every features from it, but enable performance features like cache and multi-threading
+- Set your screen native resolution for your game in your game graphic options
+- Run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
+- Change MAC adress of your PC often from Ethernet network card properties
+- Disable from task manager the programs starting automatically at PC start
+- Open cmd prompt command and type ipconfig/flushdns
+- Delete everything in %temp% folder, even masked elements
+- Delete the maxinmum of things in %appdata% folder
+- Uninstall programs if it eats memory, then reinstall it with last installer, if you use it
+- Use EA.exe after start your PC or when explorer.exe eats your CPU, and IP.exe for call of duty
+- Launch battle.net, your games and applications without administrative privilege 
+- Press Win + R and type joy.cpl, then press enter, for testing your controller properties
+- Set IPv4 properties to default under network properties, but set Windows firewall rules to default for resolving your internal IP, then import your rules again
+- Delete call of duty game folder under documents, sometimes when your game is open (use Alt+F4, Alt+Enter is to switch fullscreen/windowed)
+- Whitelist against ransomeware:
+BlackOpsColdWar
+ModernWarfare
+Battle.net
+Battle.net Launcher
+mmc
+Agent
+TextEditor
+Taskmgr
+perfmon
+csrss
+dwm
+explorer
+lsass
+ntoskrnl
+RtkAudUService64
+audiodg
+smss
+svchost
+consent
+conhost
+webViewer
+smartscreen
+rundll32
+fontdrvhost
+jhi_service
+NisSrv
+NVDisplay.Container
+RtkAudUService64
+SecurityHealthService
+services
+SgrmBroker
+sihost
+TPMProvisioningService
+wininit
+winlogon
+StartMenuExperienceHost
+MsMpEng
+ApplicationFrameHost
+wlanext
+WmiApSrv
+SIHClient
+- Blacklist against ransomeware:
+dllhost
+Microsoft.Photos
+msedge
+SearchApp
+ShellExperienceHost
+UserOOBEBroker
+WMIADAP
+WMIC
+- Services to let in french
+Informations d’application
+Service de profil utilisateur
+Générateur de point de terminaison du service audio Windows
+Audio Windows
+Moteur de filtrage de base
+Service de prise en charge bluetooth
+Service de chiffrement
+Client DHCP
+Client DNS
+Journal d’événement Windows 
+Service de stratégie de diagnostic
+Service d'association de périphérique
+Gestionnaire d'installation de periphérique
+Détection materiel noyau
+Plug-and-Play
+Client de stratégie de groupe
+Planificateur de classe multimédia
+Windows installer
+Netlogon
+Connexions réseau 
+Service Interface du magasin réseau
+Alimentation
+Mappeur de point de terminaison
+Planificateur de taches
+Service client steam
+Sauvegarde Windows
+Service ouverture de session locale
+Service de découverte automatique de Proxy Web pour les services HTTP Windows
+Service de moteur de sauvegarde en mode bloc
+Security services as Windows firewall
+- FreePlay is made for playing games blocking all suspect IP, so fake servers
+- It's possible to check the effect with perfmon
+- It blocks using Window firewall
+- The file domain.txt is for allowing domains
+- Each line in file domain.txt must contain two parts of a domain name, separate with a space, for allowing it
+- All domains not in file domain.txt are blocked
+- Noobs and cheaters will not see the effect using it
+- Cheaters will not be able to find a match using it
+- It's a big energy saver (70%) for all peipherals connected to your PC using it, and so increasing lifetime of your PC
+- For repair Windows Update not able to find updates, or for repair sales in Fortnite, you need to disable protected folders under security parameters, and also exploit protection for dllhost.exe, ShellExperienceHost and UserOOBEBroker.exe
+- Update often your PC with Windows Update, choosing global updates, but also facultative updates for driver updates
+- You can delete a service with cmd dos prompt command run with administrative privilege using the command : sc delete "servicename", and delete a folder with : rmdir /s "foldername", and also delete a file with : del /f "filename"
+- You can set with cmd.exe your IPv4 properties as following:
+netsh interface ipv4 show config
+netsh interface ipv4 set address name="Wi-Fi" static 192.168.1.8 255.255.255.0 192.168.1.1
+netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8
+netsh interface ipv4 set dns name="Wi-Fi" static 8.8.4.4 index=2
+- Change your modem Dhcp config for set internal IP of buisness like, i.e. 10.0.0.1, and then in cmd.exe type as following:
+ipconfig/release
+ipconfig/renew
+- Try to use cloudflare as DNS with server IP 1.1.1.1, or 1.0.0.1
+- List of DNS you can use to try
+quad9 9.9.9.9, 149.112.112.112
+cloudflare 1.1.1.1, 1.0.0.1
+Verisign DNS 64.6.64.6, 64.6.65.6
+Google DNS 8.8.8.8, 8.8.4.4
+DNSWatch 84.200.69.80, 84.200.70.40
+AdGuard DNS 176.103.130.130, 176.103.130.131
+Dyn Internet Guide 216.146.35.35, 216.146.36.36252
+FDN 80.67.169.12, 80.67.169.40
+Freenom World 80.80.80.80, 80.80.81.81
+FreeDNS 37.235.1.174, 37.235.1.177
+Neustar DNS service 156.154.70.4, 156.154.71.4
+SafeDNS 195.46.39.39, 195.46.39.40
+SmartViper Public DNS 208.76.50.50, 208.76.51.51
+YandexDNS 77.88.8.7, 77.88.8.3
+CleanBrowsing 185.228.168.9, 185.228.169.9
+CenturyLink 4.2.2.1, 4.2.2.2, 4.2.2.3, 4.2.2.4
+NextDNS.io 45.90.28.218, 45.90.30.218
+- Change often of DNS server to set twice in setup.cmd from freemywar and freemyplay folders, click on the button setup in, to change of DNS server easy
+- Choose to close group access in call of duty to avoid the hack of big cheaters make them invade your matches
+- Exploit Protection Settings Easy Anti Cheat - Epic Games Launcher - Battle Net - WmiPrvse
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Désactivé
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Désactivé
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings svchost
+Protection arbitraire du code -> Désactivé*; Autoriser la désinscription du thread -> Désactivé*
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé*; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé*
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé*
+Prévention de l'éxécution des données (PED) -> Activé*; Activer l'émulation thunk ATL -> Activé*
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé*
+Ne pas autoriser les processus enfants -> Désactivé*
+Exporter le filtrage d'adresses -> Désactivé*; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé*
+Forcer la randomisation des images -> Activé*; Ne pas autoriser les images rayées -> Activé*
+Protection des piles appliquée par le matériel -> Activé*; Applicable à tous les modules -> Activé*
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé*; N'utilisez pas l'entropie élevée -> Désactivé*
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Désactivé*
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+(*) Approuved, otherwise not tested
+- Exploit Protection Settings All
+Prévention de l'éxécution des données (PED) -> Activé*; Activer l'émulation thunk ATL -> Activé*
+Forcer la randomisation des images -> Activé*; Ne pas autoriser les images rayées -> Activé*
+Protection des piles appliquée par le matériel -> Activé*; Applicable à tous les modules -> Activé*
+Allocations de mémoire aléatoires -> Activé*; N'utilisez pas l'entropie élevée -> Désactivé*
+(*) Approuved, otherwise not tested
+- Exploit Protection Settings Fortnite
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Désactivé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Désactivé
+- Exploit Protection Settings Battlefield V
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé
+Exporter le filtrage d'adresses -> Activé; Valider l'accès à des modules qui sont couramment attaqués -> Activé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Désactivé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings Apex Legends 
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Activé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé
+Exporter le filtrage d'adresses -> Activé; Valider l'accès à des modules qui sont couramment attaqués -> Activé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Désactivé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Activé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Activé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Activé
+- Exploit Protection Settings Call of Duty
+Protection arbitraire du code -> Désactivé; Autoriser la désinscription du thread -> Désactivé
+Bloquer les images de faible intégrité -> Activé
+Bloques des images distantes -> Activé
+Bloquer les polices non approuvées -> Activé
+Protection de l'intégrité du code -> Désactivé; Autoriser aussi le chargement d'images signées par le Microsoft Store -> Désactivé
+Protection du flux de contrôle -> Désactivé; Utilisez une protection stricte du flux de contrôle -> Désactivé
+Prévention de l'éxécution des données (PED) -> Activé; Activer l'émulation thunk ATL -> Activé
+Désactiver les points d'extension -> Activé
+Désactiver les appels système Win32k -> Désactivé
+Ne pas autoriser les processus enfants -> Activé (Ricochet -> Désactivé)
+Exporter le filtrage d'adresses -> Désactivé; Valider l'accès à des modules qui sont couramment attaqués -> Désactivé
+Forcer la randomisation des images -> Activé; Ne pas autoriser les images rayées -> Activé
+Protection des piles appliquée par le matériel -> Activé; Applicable à tous les modules -> Activé
+Importer le filtrage d'adresses -> Désactivé
+Allocations de mémoire aléatoires -> Activé; N'utilisez pas l'entropie élevée -> Désactivé
+Simuler l'éxécution -> Activé
+Valider l'invocation de l'API -> Activé
+Valider les chaînes d"exception -> Activé
+Valider l'utilisation de la poignée -> Désactivé
+Valider l'intégrité du tas -> Activé
+Valider l'intégrité des dépendances d'images -> Activé
+Valider l'intégrité de la pile -> Désactivé
+- Capturing with GeForce Experience for uploading on Youtube need to set parameters as following :
+Game with best graphisms and highest resolution of your game screen, while not encounter lags, or better choosing native resolution but upscaling after capture with ffmpeg
+720p, 30 FPS, 15 Mbits/s, or 1440p, 30 FPS, 30 MBits/s, or 4k, 30 FPS, 50 Mbits/s, with in game resolution, in video settings of Geforce
+Allow capturing desktop if using webcam and if using WebcamOverlay in confidentiality settings of Geforce, but resolution of video will be the resolution of your monitor screen 
+Disable game capture in Windows settings and restart your computer
+To embed a video in Html5 video tag instead of using Youtube iframe, I advice you to rezise video with bitrate using cmd command "ffmpeg -i input.mp4 -b:v 6M output.mp4", because video tag aren't compressing video like Youtube is doing and so low connexion can't watch your video
+It's made for avoid loss of video quality while uploading on Youtube, and not having low resolution badly compressed by Youtube, so you can use the cmd command "ffmpeg -i input.mp4 -vf scale=3840:2160:flags=neighbor -b:v 15M output.mp4" for transforming to 4k your video before uploading on Youtube
+- For better audio quality in your ears, under properties of audio peripherals, prefer the lowest quality (16 bits, CD, half grunge, half punk, but more fluids, and fitted sounds less tiring your ears) for your audio output peripheral and also disable all features like spatial sound, and use the tool for set your earphones asking you to test audio
+- Saving your games you add from Xbox application on a SSD needs it be formatted in NTFS format
+- Disable options of applications from Windows parameters, don't let it execute in background
+- In CoD, create a clan with noobs, set group to private, check file modification like telescopeCache\telescope_index.dat or xpak_cache\xpak_settings.bin or main\toc1.dcache or .build.info or Launcher.exe, but start again battle.net setup before, and always use FreeMyPlay.exe, letting at maximum the rules generated by it, just disable or enable rules and redisable or reenable
+- Enhance CoD game settings with the dedicated file named adv_options.ini
+- Disable access for less secure app here : https://myaccount.google.com/lesssecureapps
+- Enable secure access here : https://myaccount.google.com/account-enhanced-safe-browsing
+- When you need a cable for your controllers, you need cable allowing synchronisation (data) and power, often cable only allow power, but it needs both
+- If you can't update your games, you need to enter the following commands in cmd prompt run with administrative privilege, 
+net stop winmgmt
+winmgmt /resetrepository
+net start winmgmt
+- Also delete the following folders
+%programdata% Delete the Battle.net and Blizzard Entertainment folders
+%appdata% Delete the Battle.net folder
+%localappdata% Delete the battle.net and Blizzard Entertainment folders
+- Finally uninstall and reinstall battle.net, copy your game files, uninstall the game, format your SSD with default settings, and copy again your game files, and then reinstall your game by locate game files
+- But simply, uninstall the game, and reinstall it disabling auto update, enabling english language, and make a copy of fresh files
+- It's easy to detect if a Wii Sensor Bar is working, just check with a camera if you see leds lighting
+- You can use August LP310 Remote used normaly for Power Point presentation for Top Down Shooters
+- For certain joycons like from freaks and geeks, you need to let pressed sync button until led blinking start to slow down and also you need to allow connection by clicking on Windows notification to connect it
+- Only official Nintendo joycons and official Playstation controllers have data in joy.cpl (Win + R) for be used to simulate Keyboard and Mouse or Xbox Controller
+- Epic Games Launcher and Steam steals all your private information and break your controller and PC and screen, it's hack fest with it, trust only in Xbox live and Battle.net on PC
+- Change often MAC network adress of your ethernet network card because there's spoofing of IP of official server due to mac address hashing table hacked from network routers between your rooter and official servers
+- Remove cheaters you blocked after your list is full, then you can add again the new cheaters, for having true gamers in your matches and not be harrassed everytime by these jerks
+- Set battle.net to quit when launching a game, and make manually update of your game and launch it after that without firewall blocking rules for both, taking care to not break the game files to not have to redownload it
+- Disable voice tchat, disable text tchat, disable all graphic feature, disable lightness, but enable your best and fuck the rest
+- Wii U USB sensor bar must not be wired in a always alimented USB port of your PC
+- If you have a bad connection for your matches and it's fill with cheaters, prefer in it less players as possible.
+- CoD devs doesn't like cheaters and you are a cheater, being forwarded against them, if you are using some kind of things giving you some unfair advantages
+- Every free drivers of any kind, not comming with your OS, and every free programs you download on internet have or are viruses
+- Set your network to private and with only Ethernet, no Wi-Fi
+- You can repair your PC with cmd dos prompt command run with administrative privilege typing both commands: sfc /scannow, DISM /Online /Cleanup-Image /ScanHealth
+- You can repair Windows Security with powershell run with administrative privilege typing command: Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
+- Game in fullscreen is running better than windowed or fullscreen without border
+- If you are using a virtual Xbox Controller, prefer to add manually the driver for it, install manually the driver as a driver for old generation device, choosing on disk with file .inf, from peripheral manager under control panel, it's in the tab system peipherals
+- Prefer to use Geforce Experience for record and stream videos instead of ffmpeg, because with bad settings it destroy a little your PC
+- Prefer install your favorite multiplayer games under C:/program files (x86) folder for better performance
+- Disable and lower everything for Ethernet network card settings from advanced options under configuration
+- It must have nothing under and above sensor bar for using a IR cam in front of leds
+- Your FPS but also your ping in multiplayer games depends on health of your PC, ping is a better indicator than FPS
+- Each time, there's an update of your game under battle.net, quit battle.net until there's no more update of your game
+- Enabling UAC to highest level is allowing to know if battle.net is launched as admin and so games, and so restart battle.net until it's not running as admin
+- Prefer to record or stream with GeforceExperience and show your contents on Youtube
+- Use Devreorder to reorder your prefered controller to be used prioritarly in your games or to hide some controller for disable unwanted controls 
+- Take care to have your controllers always batteries well charged, for minimum input lag and minimum drifting
+- It's better to restore your PC from fresh often than trying to repair with strange programs, you just have to keep your game files on a external disk
+- For better performances, keep enable the service SysMain, and disable all bluetooth services but not the service bluetooth peripheral manager, for reduce input lag of your wireless controllers
+- Remove all tasks from task scheduller in Windows tools (administrative tools) under control panel
+- Prefer to upgrade to last Windows OS, it's always more optimized and better performances
+- Disable every features and deny every applications to run in background from Windows parameters, but let parameters for bluetooth and sound from dedicated tabs, not from Windows parameters, where you can disable everything
+- Prefer to update drivers using peipheral manager under control panel
+- When a program is connecting bluetooth controller, it can not run, because sometimes connection bugs, so it needs to connect/disconnect manually from perpherals and printers under control panel
+- Remove every tasks in task scheduler from administrative tools (Windows tools) under control panel
+- The game settings under game options for gamepad or mouse are very important, like settings for deadzone, acceleration, sensitivity, ...
+- To avoid input lags or desktop freeze, take care to not having useless hidden drivers from peripheral manager, under control panel, otherwise remove all of it
+- From folder explorer search, remove all folders and files, even hidden, packages, .vs, .git, .gitattributes
+- To avoid input lag of Joycon left, connect it after Joycon right, and vice versa, and also run the program for using it, with administrative privilege and compatibility mode of Windows Vista, and the version x86
+- Prefer to let distant port 443 (https) for all programs in modem and Windows firewall, in order Windows update slice to secure download instead of unsecure with port 80 (http)
+- Don't allow SSID of your modem to be discover, and set allow to connect to network if the SSID is not in discovering mode, from IPv4 network connection properties under network center and sharing under control panel
+- For better performances, run the following command in cmd dos with administrative privilege to increase the limit of paged pool memory size, fsutil behavior set memoryusage 2
+- For some reasons, like hackers and haters are targeting you, using a VPN is better than using firewalls, but some settings are required, let the services running like SSDP service, Telephonic service, and Telephony, NetBios service, set to default properties of IPv4 from network card, and all services installed of network card, and set to default Windows and modem firewall 
+- If the game launcher you are using is faking also a controller you want to use in a game it fake, be sure to close the game launcher after starting a game, and use a controller when game is started
+- You can compare Windows integrated VPN with vpnbook p2p servers (not servers optimized for the web), WTFast and ExitLag... For using it on consoles, you can share connection from a PC using it, wired with a RJ-45 cable
+- You have less issue on your PC if you set cloudflare DNS client server (1.1.1.1)
+- You have less bad lobbies in CoD by not insulting people
+- You have a risk of be flagged for spam (banned profil) on Github by pushing illegal files like certain vegetable pictures
+- With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session
+- Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
+- For gyro aiming, Switch Pro Controller is better than PS5 DualSense controller because the gyro of this last isn't a real gyro, it's more a relative accelerometer, more cheap than a true gyro, like the one of Switch Pro Controller, very good
