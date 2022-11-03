@@ -1,0 +1,172 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+body {
+    font-size: calc(0.74vw + 0.74vh + 0.37vmin);
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.25), 0px 8px 13px rgba(0,0,0,0.25), 0px 18px 23px rgba(0,0,0,0.25);
+}
+
+#smallbox {
+    cursor: pointer;
+}
+
+#sidebarCollapse {
+    text-decoration: none;
+    width: 3vh;
+    height: auto;
+    position: fixed;
+    display: inline;
+    float: left;
+    box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background-color: #343A40;
+}
+
+#sidebar {
+    transition-duration: 0.3s;
+    box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    overflow: auto;
+}
+
+.sidebar-subheader {
+    background: #dae0e5;
+}
+
+.vertical-nav {
+    min-width: 37vh;
+    width: 37vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.page-content {
+    width: calc(100% - 37vh);
+    margin-left: 37vh;
+    margin-right: 37vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sidebar.active {
+    margin-left: -37vh;
+    transition-duration: 0.3s;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+    transition-duration: 0.3s;
+}
+
+#content {
+    transition-duration: 0.3s;
+}
+
+body {
+    background: linear-gradient(to right, rgba(52, 58, 64, 1), rgba(52, 58, 64, 1), rgba(52, 58, 64, 0.99), rgba(52, 58, 64, 0.96), rgba(52, 58, 64, 0.93), rgba(52, 58, 64, 0.89), rgba(52, 58, 64, 0.84)) !important;
+}
+
+.text-uppercase {
+    letter-spacing: 0.1em;
+}
+
+hr {
+    border-color: white;
+}
+
+footer {
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.resume-section img {
+    object-fit: fill;
+    width: auto;
+    height: 25vh;
+    display: flex;
+}
+
+.resume-date {
+    float: right;
+    text-align: right;
+    display: flex;
+}
+
+.nav-item {
+    height: 7.0vh;
+    width: 37vh;
+}
+
+h1 {
+    font-size: calc(1.8vw + 1.8vh + 0.9vmin);
+}
+
+h2 {
+    font-size: calc(1.5vw + 1.5vh + 0.75vmin);
+}
+
+h3 {
+    font-size: calc(1.2vw + 1.2vh + 0.6vmin);
+}
+
+h4 {
+    font-size: calc(1vw + 1vh + 0.5vmin);
+}
+
+.keyword {
+    white-space: nowrap;
+    cursor: pointer;
+    background-color: #777;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.8);
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin: 0vh 1.5vh 1.75vh 0vh;
+}
+
+.keywords {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card, .nav-item, img {
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #444;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #eee;
+    }

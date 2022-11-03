@@ -1,0 +1,169 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+body {
+    font-size: 1.6rem;
+    text-shadow: 0px 2px 1px rgba(0,0,0,0.05);
+}
+
+#smallbox {
+    cursor: pointer;
+}
+
+#sidebarCollapse {
+    text-decoration: none;
+    height: auto;
+    position: fixed;
+    display: inline;
+    float: left;
+    box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    background: rgb(35, 41, 47);
+}
+
+#sidebar {
+    transition-duration: 0.3s;
+    box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    overflow: auto;
+    background: rgb(35, 41, 47);
+}
+
+.media {
+    padding: 0.5vh;
+    background: rgb(35, 41, 47);
+}
+
+.vertical-nav {
+    width: 33vh;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+}
+
+.page-content {
+    width: calc(100% - 33vh);
+    margin-left: 33vh;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#sidebar.active {
+    margin-left: -33vh;
+    transition-duration: 0.3s;
+}
+
+#content.active {
+    width: 100%;
+    margin: 0;
+    transition-duration: 0.3s;
+}
+
+#content {
+    transition-duration: 0.3s;
+}
+
+body {
+    background: linear-gradient(to right, rgb(35, 41, 47), rgb(45, 51, 57));
+}
+
+.resume-section img {
+    object-fit: fill;
+    width: auto;
+    height: 25vh;
+    display: flex;
+}
+
+.resume-date {
+    float: right;
+    text-align: right;
+    display: flex;
+}
+
+.nav-item a {
+    height: 6.5vh;
+    width: 33vh;
+}
+
+.nav-item {
+    height: 6.5vh;
+    width: 33vh;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+h3 {
+    font-size: 1.9rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.7rem;
+}
+
+.keyword {
+    white-space: nowrap;
+    background-color: #b8bcbf;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-shadow: 0px 0px 2px rgba(255,255,255,0.05);
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.keywords {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.card, .nav-item, img {
+    box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+}
+
+.card {
+    text-decoration: none;
+    width: 300px;
+    height: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #444;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #eee;
+    }

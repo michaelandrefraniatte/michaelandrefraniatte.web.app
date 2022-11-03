@@ -1,0 +1,29 @@
+Step 1: you need to get the channelId for the user via:
+
+https://www.googleapis.com/youtube/v3/channels?part=snippet&forUsername={0}&key={1} - where {0} is the USERNAME and key is you API key
+
+Step 2: from that you can get a list of videos via:
+
+https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId={0}&key={1}
+
+Step 3:
+
+https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,player&id={0}&key={1} - where id is the videoId returned from step 2.
+
+Examples:
+
+gamers addict
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=UCj7Tqdo8ZrPMH-4yQw5dsig&key={1}
+https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UCj7Tqdo8ZrPMH-4yQw5dsig&key={1}
+
+julien chièze
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=UCRXcryyD7dzNQzd0Zkbj3ug&key={1}
+https://www.googleapis.com/youtube/v3/channels?part=snippet&id=UCRXcryyD7dzNQzd0Zkbj3ug&key={1}
+https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=20&playlistId=UURXcryyD7dzNQzd0Zkbj3ug&key={1}
+
+RadioIntense
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=RadioIntense&key={1}
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&id=UCCWHSZ6VQPr7cnJAF8JbDzA&key={1}
+
+Miss Monique
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=DjMissMonique&key={1}

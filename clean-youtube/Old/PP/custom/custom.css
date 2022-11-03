@@ -1,0 +1,141 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+body {
+    font-family: sans-serif;
+    background-color: #222222;
+    color: #FFFFFF;
+}
+
+.row > .col-lg-4,
+.col-6 {
+    padding: 0;
+}
+
+.slideshow-container {
+    justify-content: center;
+    display: flex;
+}
+
+.menushow-container a {
+    align-items: center;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+.menushow-container div {
+    align-items: center;
+    margin: 15px;
+    color: #FFFFFF;
+}
+
+#navbar {
+    background: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    transition: top 0.3s;
+    justify-content: center;
+}
+
+#overlay {
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: block;
+    width: 100%;
+    height: 35vh;
+    top: 100vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: top 0.3s;
+}
+
+#list {
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: none;
+    top: 50px;
+    width: 100%;
+    height: calc(65vh - 50px);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    transition: top 0.3s;
+}
+
+#list a {
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 20px;
+}
+
+#overlay iframe {
+    pointer-events: none;
+}
+
+.goto, .gotochannel, .collaspse {
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centered:hover {
+    background-color: black;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.thumbnailed {
+    outline: 4px solid white;
+    outline-offset: -4px;
+}
+

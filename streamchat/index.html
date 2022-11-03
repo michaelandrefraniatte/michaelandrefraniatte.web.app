@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="A stream chat for receiving and posting comments while streaming on twitch, achieved with JavaScript.">
+    <meta name="keywords" content="stream, chat, twitch">
+    <meta name="author" content="MICHAEL ANDRE FRANIATTE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>streamchat</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="custom/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="../rgpd.css" />
+
+</head>
+
+<body>
+
+    <span aria-label="No Cookies!" class="infobulle">🛈</span>
+
+    <div class='chat-container'>
+    </div>
+
+    <div class='onair-container' id='onair'>
+    </div>
+
+    <div class='open-container'>
+        <div class='icon-upload' style='display:float;'>
+            <label for='txtFileInput'>
+                <div class='bg-light folderopen' style='display:float;position:absolute;left:15px;bottom:10px;'>
+                    <i class='fa fa-folder-open' title='open favours'></i>
+                </div>
+            </label>
+            <input type='file' id='txtFileInput' onchange='handleFiles(this.files)' accept='.txt'>
+        </div>
+    </div>
+
+    <script src="custom/custom.js"></script>
+
+</body>
+
+</html>

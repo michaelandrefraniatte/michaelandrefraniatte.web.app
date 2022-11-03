@@ -1,0 +1,2 @@
+- The open button is made for open configurations in streamchat.txt
+- There is a purple circle indicating if the channel is streaming checked every 10 seconds

@@ -1,0 +1,268 @@
+
+body {
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #999;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #eee;
+    }
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.top {
+    position: relative;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), black);
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 1);
+    top: 0;
+    width: 100%;
+    height: 4.5rem;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+}
+
+.container {
+    min-height: calc(100vh - 7rem - 4.5rem);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+}
+
+.bottom {
+    position: relative;
+    background: linear-gradient(to bottom, rgba(95, 95, 95, 0.5), black);
+    box-shadow: 0 0 1px 1px rgba(55, 55, 55, 1);
+    bottom: 0;
+    width: 100%;
+    padding: 0.25rem;
+    height: 7rem;
+    margin-top: auto;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.25);
+}
+
+.white {
+    color: white;
+}
+
+.bottom img {
+    width: 3.5rem;
+    height: auto;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 transparent;
+    cursor: default;
+}
+
+.logo {
+    position: absolute;
+    height: 4rem;
+    width: auto;
+    left: 0.25rem;
+    top: 0.25rem;
+    background-color: transparent;
+    box-shadow: 0 0 0 0 transparent;
+}
+
+.title {
+    height: 4rem;
+    padding: 0.5rem;
+}
+
+.colored {
+    color: #888;
+}
+
+img {
+    cursor: pointer;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.25);
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+.column img:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    transform: scale(1.02);
+    box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    box-shadow: -2px 2px 2px -2px #666;
+    background: url(wavy.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 0%;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+    .card:hover {
+        -webkit-transform: scale(1.02);
+        -moz-transform: scale(1.02);
+        -o-transform: scale(1.02);
+        transform: scale(1.02);
+        box-shadow: -3px 3px 3px -3px #444;
+    }
+
+.card-text {
+    text-align: justify;
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.first-section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+
+.buy-section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.second-section {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.third-section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.fourth-section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.script-section {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: justify;
+}
+
+.w3-bar {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.colored {
+    color: grey;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+p {
+    text-indent: 2cm;
+    color: black;
+}
+
+    p::first-letter {
+        color: grey;
+        font-weight: 700;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+    }
+
+ul li {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+.w3-container {
+    display: block;
+    width: 91%;
+    margin: auto;
+}
+
+.script {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+}
+
+.test-autocomplete-textarea-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-style: inset;
+}
+
+.test-autocomplete-textarea {
+    width: 100%;
+    height: 17vh;
+    padding: 1.5vh;
+    background-color: #ddd;
+    font-family: monospace;
+    overflow: auto;
+    color: black;
+}
+
+.spinner {
+    position: fixed;
+    top: calc(50% - 10vh);
+    left: calc(50% - 10vh);
+    text-align: center;
+    font-size: 20vh;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+}

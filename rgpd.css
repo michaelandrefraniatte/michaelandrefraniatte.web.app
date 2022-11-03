@@ -1,0 +1,57 @@
+
+.infobulle {
+    position: relative;
+    cursor: help;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+    .infobulle:hover:after,
+    .infobulle:focus:after {
+        content: attr(aria-label);
+        position: absolute;
+        top: -2.4em;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        padding: 5px;
+        background: black;
+        color: #fff;
+        border-radius: 0px;
+        font-size: 12.5px;
+        z-index: 10;
+    }
+
+[aria-label]:hover:before,
+[aria-label]:focus:before {
+    content: "▼";
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: black;
+    z-index: 10;
+}
+
+[aria-label]:focus {
+    outline: none;
+    z-index: 10;
+}
+
+.infobulle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2em;
+    width: 1em;
+    height: 1em;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    color: #333;
+    z-index: 10;
+}

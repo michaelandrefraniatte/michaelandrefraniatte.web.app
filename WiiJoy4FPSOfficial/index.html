@@ -1,0 +1,293 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AirJoy</title>
+    <meta name="description" content="Plug and play gyroscope for all gamepads to play FPS">
+    <meta name="keywords" content="airmouse, plug and paly, gyroscope, gamepads, FPS, PC, program">
+    <meta name="author" content="MICHAEL ANDRE FRANIATTE">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../w3.css">
+
+    <style>
+
+        .title b {
+            font-size: 2.81vh;
+        }
+
+        .title span, footer b {
+            color: white;
+            font-size: 2.31vh;
+        }
+
+        .bottom {
+            background-color: black;
+            padding: 0.5%;
+        }
+
+        .top {
+            background-color: black;
+            padding: 0.5%;
+        }
+
+        img {
+            cursor: pointer;
+        }
+
+        * {
+            font-family: arial, sans-serif;
+        }
+
+        div {
+            font-size: 2.2vh;
+        }
+
+        h3 {
+            font-size: 2.31vh;
+        }
+
+        body {
+            overflow: auto;
+        }
+
+        .first-section {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .buy-section {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .second-section {
+            padding-top: 3%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .third-section {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .fourth-section {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .script-section {
+            padding-top: 1%;
+            padding-bottom: 1%;
+            text-align: justify;
+        }
+
+        .w3-bar {
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+        }
+
+        .colored {
+            color: grey;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 25%;
+            padding: 5px;
+        }
+
+        p::first-letter {
+            color: grey;
+        }
+
+        p {
+            text-indent: 2cm;
+        }
+
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #444;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: #eee;
+            }
+
+        ul {
+            width: 20%;
+            margin: auto;
+        }
+
+        .w3-container {
+            display: block;
+            width: 91%;
+            margin: auto;
+        }
+
+        .script {
+            position: relative;
+            left: 2.5%;
+            width: 95%;
+            height: 95%;
+            padding-bottom: 1%;
+            padding-top: 0.5%;
+        }
+
+        .logo {
+            cursor: pointer;
+            position: absolute;
+            width: 8vh;
+            left: 1vh;
+        }
+
+        .first-title {
+            font-size: 2.81vh;
+        }
+
+.infobulle {
+  position: relative;  /*les .infobulle deviennent référents*/
+  cursor: help;
+  border-radius: 50%;
+}
+
+.infobulle:hover:after,
+.infobulle:focus:after {
+  content: attr(aria-label);
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  white-space: nowrap;
+  padding: 5px;
+  background: black;
+  color: #fff;
+  border-radius: 0px;
+  font-size: 1rem;
+}
+
+[aria-label]:hover:before,
+[aria-label]:focus:before {
+  content: "▼";
+  position: absolute;
+  top: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  color: white;
+}
+
+[aria-label]:focus {
+  outline: none;
+}
+
+.infobulle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2em;
+  width: 1em;
+  height: 1em;
+  font-size: 2rem;
+  text-align: center;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 1;
+  color: #333;
+}
+
+    </style>
+  </head>
+  <body>
+
+    <span aria-label="No Cookies!" class="infobulle">🛈</span>
+
+    <div class="top w3-center">
+        <a href="../"><img class="logo" src="cod.png" alt="cod"></a>
+        <div class="title">
+            <b class="colored">AirJoy</b>
+            <br>
+            <span>Be Like A Pro</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="w3-row first-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Plug and Play Gyroscope for All Gamepads to Play FPS</b></h3>
+                <p>
+                    <b>T</b>hese programs are made to support gyroscope for all gamepads in all PC FPS games. It correspond to a set of dedicated programs for all games in order to be plug and play and flawless. No input lag, adpated and custom control, competitive, and enjoyable. You aiming with combination of the gyroscope of a airmouse and the gamepad stick, and use your brain to trick ennemies. All gamepads are supported. Let's see...
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-center row">
+            <div class="column">
+                <img src="../img/airjoy-main.png" alt="aimtraining-main" style="width:50%" onclick='img_box("../img/airjoy-main.png")'>
+            </div>
+        </div>
+
+        <div class="w3-row second-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Considerations About the Program</b></h3>
+                <p>
+                    <b>T</b>he program is made for being more competitive than usual, but it ask a lot of experiences, and to want aiming like in virtual reality games. It ask to install 2 drivers, SCP and Devreorder.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-row buy-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Download and Install</b></h3>
+                <p>
+                    <b>S</b>end me an e-mail at <a href="mailto:michael.franiatte@gmail.com">michael.franiatte@gmail.com</a> to obtain the program. You need to place, in the folder of the program, an authentication file. I ask you information, and then I send you authentication, for launching the program.
+                </p>
+            </div>
+        </div>
+
+        <div class="w3-row buy-section">
+            <div class="w3-container">
+                <h3 class="w3-center colored"><b>Terms of License</b></h3>
+                <p>
+                    <b>A</b>ll are mines, so if you want to use and contribute, you shall contact me and pay me. The copyright laws are protecting my works, it means that no one can reproduce, no one can create derivative works, no one can modify, and no one can use anything without my consents.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="bottom w3-center">
+        <b class="colored">MAF</b>
+        <br>
+        <b class="colored">©2006-2022</b>
+    </footer>
+
+    <script>
+    </script>
+    <script src="img_box.js"></script>
+
+</body>
+</html>

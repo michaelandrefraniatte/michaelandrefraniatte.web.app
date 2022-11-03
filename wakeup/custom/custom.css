@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Mono);
+
+#timer, #watch, #clock {
+  background-color: #333;
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  margin: 12px auto;
+}
+
+.screen {
+  width: 154px;
+  height: 42px;
+  background-color: #444;
+  background-image: linear-gradient(300deg, rgba(255,255,255,0.1), rgba(255,255,255,0.1) 20%, rgba(255,255,255,0.5) 10%, rgba(255,255,255,0.1), rgba(255,255,255,0.1));
+  border-radius: 4px;
+  margin: auto;
+  position: relative;
+  top: 75px;
+  text-align: right;
+  font-family: 'PT Mono', monospace;
+  color: #fff;
+  line-height: 42px;
+  font-size: 32px;
+  padding: 5px 8px;
+}
