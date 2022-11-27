@@ -169,6 +169,14 @@ idpopup_img_box.onclick = function() {
 	    {
 		imagearray = ['img/dc-main.png', 'img/dc-managed.png']
 	    }
+	    else if (imagesource == 'img/audiomerger-main.png' | imagesource == 'img/audiospliter-main.png')
+	    {
+		imagearray = ['img/audiomerger-main.png', 'img/audiospliter-main.png']
+	    }
+	    else if (imagesource == 'img/wjp-main.png' | imagesource == 'img/wjr-main.png')
+	    {
+		imagearray = ['img/wjp-main.png', 'img/wjr-main.png']
+	    }
 	    else
 	    	imagearray = []
 	    imageinc++
