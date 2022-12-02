@@ -121,9 +121,9 @@ idpopup_img_box.onclick = function() {
 	    {
 		imagearray = ['img/kme-cancelreload.png', 'img/kme-doubleclickreload.png', 'img/kme-keepaimdownsight.png', 'img/kme-mousemovetokeys.png', 'img/kme-pushreload.png', 'img/kme-shockmouse.png']
 	    }
-	    else if (imagesource == 'img/playandlisten-main.png' | imagesource == 'img/playandlisten-client.png')
+	    else if (imagesource == 'img/playandlisten-client.png' | imagesource == 'img/playandlisten-main.png')
 	    {
-		imagearray = ['img/playandlisten-main.png', 'img/playandlisten-client.png']
+		imagearray = ['img/playandlisten-client.png', 'img/playandlisten-main.png']
 	    }
 	    else if (imagesource == 'img/eosresol-main.png' | imagesource == 'img/eosresol-reaction1.png' | imagesource == 'img/eosresol-reaction2.png' | imagesource == 'img/eosresol-reaction3.png')
 	    {
