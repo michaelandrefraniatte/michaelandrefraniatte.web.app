@@ -89,13 +89,8 @@ body {
     display: flex;
 }
 
-.nav-item a {
-    height: 6.5vh;
-    width: 33vh;
-}
-
-.nav-item {
-    height: 6.5vh;
+.nav-item a, .nav-item {
+    height: 7vh;
     width: 33vh;
 }
 
@@ -121,7 +116,6 @@ h5 {
 
 .keyword {
     white-space: nowrap;
-    background-color: #a1a1a1;
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
@@ -131,6 +125,7 @@ h5 {
     box-shadow: 0px 4px 3px rgba(0,0,0,0.1);
     display: inline-block;
     margin-right: 10px;
+    background: #d9ddde;
 }
 
 .keywords {
