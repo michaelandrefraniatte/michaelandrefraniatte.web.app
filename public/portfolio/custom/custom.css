@@ -42,7 +42,7 @@ body {
 }
 
 .vertical-nav {
-    width: 33vh;
+    width: 18vw;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -51,14 +51,14 @@ body {
 }
 
 .page-content {
-    width: calc(100% - 33vh);
-    margin-left: 33vh;
+    width: calc(100% - 18vw);
+    margin-left: 18vw;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #sidebar.active {
-    margin-left: -33vh;
+    margin-left: -18vw;
     transition-duration: 0.3s;
 }
 
@@ -89,9 +89,36 @@ body {
     display: flex;
 }
 
-.nav-item a, .nav-item {
+.resume-content {
+    margin-top: 3.3vh;
+    margin-bottom: 3.3vh;
+}
+
+.resume-content {
+    text-align: justify;
+}
+
+.resume-content h3:not(.status), #experience .resume-content p, #education .resume-content p, #experience .subheading, #education .subheading {
+    text-indent: 3rem;
+    margin-left: 3rem;
+}
+
+.status {
+    text-indent: 0;
+    margin-left: 0;
+}
+
+.nav-item {
+    display: inline-block; 
+    vertical-align: middle;
     height: 7vh;
-    width: 33vh;
+    width: 18vw;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.nav-item a {
+    height: 100%;
 }
 
 h1 {
@@ -141,6 +168,7 @@ h5 {
     text-decoration: none;
     width: 300px;
     height: auto;
+    background: #d9ddde;
 }
 
 /* width */
