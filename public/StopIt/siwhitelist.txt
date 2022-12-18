@@ -1,5 +1,5 @@
 StopIt
-WiiJoyBOV
+LobbyBlocker
 cod
 codCrashHandler
 Vanguard
