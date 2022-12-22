@@ -398,3 +398,4 @@ net start winmgmt
 - With Windows 11 OS, you have to register your session with a Microsoft account, but after it you can add a local user with a password, and set a local account for open your session
 - Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
 - For gyro aiming, Switch Pro Controller is better than PS5 DualSense controller because the gyro of this last isn't a real gyro, it's more a relative accelerometer, more cheap than a true gyro, like the one of Switch Pro Controller, very good
+- If you can't launch some games, it's probably because Windows Defender Diagnosis is set to required, blocking some game files
