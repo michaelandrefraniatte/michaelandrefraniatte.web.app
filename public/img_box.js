@@ -117,9 +117,9 @@ idpopup_img_box.onclick = function() {
 	    {
 		imagearray = ['img/joyconstheory-main.png', 'img/joyconstheory-settings.png']
 	    }
-	    else if (imagesource == 'img/kme-cancelreload.png' | imagesource == 'img/kme-doubleclickreload.png' | imagesource == 'img/kme-keepaimdownsight.png' | imagesource == 'img/kme-mousemovetokeys.png' | imagesource == 'img/kme-pushreload.png' | imagesource == 'img/kme-shockmouse.png')
+	    else if (imagesource == 'img/kme-cancelreload.png' | imagesource == 'img/kme-doubleclickreload.png' | imagesource == 'img/kme-keepaimdownsight.png' | imagesource == 'img/kme-mousemovetokeys.png' | imagesource == 'img/kme-pushreload.png' | imagesource == 'img/kme-shockmouse.png' | imagesource == 'img/afasc-main.png')
 	    {
-		imagearray = ['img/kme-cancelreload.png', 'img/kme-doubleclickreload.png', 'img/kme-keepaimdownsight.png', 'img/kme-mousemovetokeys.png', 'img/kme-pushreload.png', 'img/kme-shockmouse.png']
+		imagearray = ['img/kme-cancelreload.png', 'img/kme-doubleclickreload.png', 'img/kme-keepaimdownsight.png', 'img/kme-mousemovetokeys.png', 'img/kme-pushreload.png', 'img/kme-shockmouse.png', 'img/afasc-main.png']
 	    }
 	    else if (imagesource == 'img/playandlisten-client.png' | imagesource == 'img/playandlisten-main.png')
 	    {
