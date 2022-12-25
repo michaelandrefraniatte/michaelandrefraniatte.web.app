@@ -1,5 +1,4 @@
 StopIt
-conhost
 cod
 codCrashHandler
 Battle.net
