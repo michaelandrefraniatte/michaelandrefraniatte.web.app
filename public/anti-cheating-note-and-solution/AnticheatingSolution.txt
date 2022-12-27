@@ -399,3 +399,4 @@ net start winmgmt
 - Set security and confidentiality on Edge settings to maximum levels of security for each of parameter, and also under edge://settings/system you need to disable everything, particularly the parameter of material acceleration, for be able to watch movies on Netflix
 - For gyro aiming, Switch Pro Controller is better than PS5 DualSense controller because the gyro of this last isn't a real gyro, it's more a relative accelerometer, more cheap than a true gyro, like the one of Switch Pro Controller, very good
 - If you can't launch some games, it's probably because Windows Defender Diagnosis is set to required, blocking some game files
+- Using invasive programs on a lowend PC is destroying it, it's the case with programs for recording or streaming, even with anti-virus, be sure of the sources before using unknown programs
