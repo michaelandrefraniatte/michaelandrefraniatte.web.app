@@ -100,24 +100,30 @@
             vertical-align: middle;
         }
 
+        .mySlidesPilot img {
+            width: auto;
+            height: 50vh;
+        }
+
+        .mySlidesReflex img {
+            width: auto;
+            height: 50vh;
+        }
+
         .slideshowpilot-container {
-            max-width: 1000px;
             position: absolute;
             margin: auto;
             left: 10vw;
             top: 124vh;
-            height: 50%;
-            width: 50%;
+            object-fit: contain;
         }
 
         .slideshowreflex-container {
-            max-width: 1000px;
             position: absolute;
             margin: auto;
             left: 10vw;
             top: 230vh;
-            height: 50%;
-            width: 50%;
+            object-fit: contain;
         }
 
         .pilot-container {
@@ -136,31 +142,21 @@
 
         .prev {
             cursor: pointer;
-            position: absolute;
-            top: 55%;
-            width: 30px;
-            height: 50px;
-            margin: -10px;
+            position: relative;
+            top: calc(25vh + 1.5rem);
+            left: calc(-2.5%);
             font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            user-select: none;
-            left: -10px;
+            font-size: 1.5rem;
             color: white;
         }
 
         .next {
             cursor: pointer;
-            position: absolute;
-            top: 55%;
-            width: 30px;
-            height: 50px;
-            margin: -10px;
+            position: relative;
+            top: calc(25vh + 1.5rem);
+            left: calc(102.5% - 2rem);
             font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            user-select: none;
-            right: -30px;
+            font-size: 1.5rem;
             color: black;
         }
 
@@ -222,6 +218,10 @@
 
     <div class="slideshowpilot-container">
 
+        <a class="prev" onclick="plusSlidesPilot(-1)">❮</a>
+
+        <a class="next" onclick="plusSlidesPilot(1)">❯</a>
+
         <div class="mySlidesPilot">
             <img src="../img/wjp-main.png" style="width:100%">
         </div>
@@ -233,9 +233,6 @@
         <div class="mySlidesPilot">
             <img src="../img/wjp-p.png" style="width:100%">
         </div>
-
-        <a class="prev" onclick="plusSlidesPilot(-1)">❮</a>
-        <a class="next" onclick="plusSlidesPilot(1)">❯</a>
 
     </div>
 
@@ -258,6 +255,10 @@
 
     <div class="slideshowreflex-container">
 
+        <a class="prev" onclick="plusSlidesReflex(-1)">❮</a>
+
+        <a class="next" onclick="plusSlidesReflex(1)">❯</a>
+
         <div class="mySlidesReflex">
             <img src="../img/wjr-main.png" style="width:100%">
         </div>
@@ -269,9 +270,6 @@
         <div class="mySlidesReflex">
             <img src="../img/wjr-r.png" style="width:100%">
         </div>
-
-        <a class="prev" onclick="plusSlidesReflex(-1)">❮</a>
-        <a class="next" onclick="plusSlidesReflex(1)">❯</a>
 
     </div>
 
