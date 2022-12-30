@@ -57,13 +57,6 @@
             opacity: 1;
         }
 
-        .text {
-            background-color: #ff5722;
-            color: white;
-            font-size: 16px;
-            padding: 16px 32px;
-        }
-
         header {
             width: 100%;
         }
@@ -143,10 +136,11 @@
         .prev {
             cursor: pointer;
             position: relative;
-            top: calc(25vh + 1.5rem);
-            left: calc(-2.5%);
+            top: calc(25vh + 1.5vw);
+            left: calc(-3.5%);
+            height: 3vw;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1.5vw;
             color: white;
         }
 
@@ -154,9 +148,10 @@
             cursor: pointer;
             position: relative;
             top: calc(25vh + 1.5rem);
-            left: calc(102.5% - 2rem);
+            left: calc(103.5% - 2vw);
+            height: 3vw;
             font-weight: bold;
-            font-size: 1.5rem;
+            font-size: 1.5vw;
             color: black;
         }
 
@@ -177,19 +172,47 @@
             margin-right: auto;
         }
 
+        .xxlarge {
+            font-size: 2.1vw;
+        }
+
+        .xlarge {
+            font-size: 1.6vw;
+        }
+
+        .large {
+            font-size: 1.1vw;
+        }
+
+        .bar {
+            object-fit: contain;
+        }
+
+        .bar-item {
+            height: 5vh;
+            font-size: 2.2vh;
+            margin-bottom: 0.5vh;
+        }
+
+        .link a i {
+            height: 1vw;
+            font-size: 1vw;
+
+        }
+
     </style>
 </head>
 <body>
 
     <!-- Navbar (sit on top) -->
     <div class="w3-top" id="Home">
-        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-            <a href="#Main" class="w3-bar-item w3-button w3-hover-black">Supporting Controllers</a>
+        <div class="bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+            <a href="#Main" class="bar-item w3-button w3-hover-black">Supporting Controllers</a>
             <!-- Right-sided navbar links. Hide them on small screens -->
-            <div class="w3-right w3-hide-small">
-                <a href="#Pilot" class="w3-bar-item w3-button w3-hover-black">Pilot</a>
-                <a href="#Reflex" class="w3-bar-item w3-button w3-hover-black">Reflex</a>
-                <a href="#About" class="w3-bar-item w3-button w3-hover-black">About</a>
+            <div class="w3-right">
+                <a href="#Pilot" class="bar-item w3-button w3-hover-black">Pilot</a>
+                <a href="#Reflex" class="bar-item w3-button w3-hover-black">Reflex</a>
+                <a href="#About" class="bar-item w3-button w3-hover-black">About</a>
             </div>
         </div>
     </div>
@@ -206,13 +229,13 @@
             <h1 class="w3-xxlarge"><span style="color:white;">Xbox Controller</span></h1>
         </div>
         <div class="pilot-container">
-            <div class="w3-xxlarge"><span style="color:black;">Pilot</span></div>
-            <div class="w3-xlarge"><span style="color: black;">WiiJoyPilot</span></div>
-            <div class="w3-large"><span style="color: grey;">Wiimote and Joycon left</span></div>
-            <div class="w3-large"><span style="color: grey;">Simulating an Xbox Controller</span></div>
-            <div class="w3-large"><span style="color: grey;">An Expert Way for Aiming in FPS</span></div>
-            <div class="w3-large"><span style="color: grey;">Well Optimized and Adapted for Competition</span></div>
-            <div class="w3-large"><a href="../WiiJoyPilot/" class="w3-button w3-hover-black"><i class="fa fa-link"></i></a></div>
+            <div class="xxlarge"><span style="color:black;">Pilot</span></div>
+            <div class="xlarge"><span style="color: black;">WiiJoyPilot</span></div>
+            <div class="large"><span style="color: grey;">Wiimote and Joycon left</span></div>
+            <div class="large"><span style="color: grey;">Simulating an Xbox Controller</span></div>
+            <div class="large"><span style="color: grey;">An Expert Way for Aiming in FPS</span></div>
+            <div class="large"><span style="color: grey;">Well Optimized and Adapted for Competition</span></div>
+            <div class="large link"><a href="../WiiJoyPilot/" class="w3-button w3-hover-black"><i class="fa fa-link"></i></a></div>
         </div>
     </header>
 
@@ -243,13 +266,13 @@
             <h1 class="w3-xxlarge"><span style="color:black;">Keyboard and Mouse</span></h1>
         </div>
         <div class="reflex-container">
-            <div class="w3-xxlarge"><span style="color: black;">Reflex</span></div>
-            <div class="w3-xlarge"><span style="color: black;">WiiJoyReflex</span></div>
-            <div class="w3-large"><span style="color: grey;">Wiimote and Joycon left</span></div>
-            <div class="w3-large"><span style="color: grey;">Simulating a Mouse and Keyboard</span></div>
-            <div class="w3-large"><span style="color: grey;">An Expert Way for Aiming in FPS</span></div>
-            <div class="w3-large"><span style="color: grey;">Well Optimized and Adapted for Competition</span></div>
-            <div class="w3-large"><a href="../WiiJoyReflex/" class="w3-button w3-hover-black"><i class="fa fa-link"></i></a></div>
+            <div class="xxlarge"><span style="color: black;">Reflex</span></div>
+            <div class="xlarge"><span style="color: black;">WiiJoyReflex</span></div>
+            <div class="large"><span style="color: grey;">Wiimote and Joycon left</span></div>
+            <div class="large"><span style="color: grey;">Simulating a Mouse and Keyboard</span></div>
+            <div class="large"><span style="color: grey;">An Expert Way for Aiming in FPS</span></div>
+            <div class="large"><span style="color: grey;">Well Optimized and Adapted for Competition</span></div>
+            <div class="large link"><a href="../WiiJoyReflex/" class="w3-button w3-hover-black"><i class="fa fa-link"></i></a></div>
         </div>
     </header>
 
