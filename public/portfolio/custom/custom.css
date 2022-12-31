@@ -169,6 +169,12 @@ h5 {
     background: #d9ddde;
 }
 
+@media print {
+    .card {
+        break-inside: avoid;
+    }
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
