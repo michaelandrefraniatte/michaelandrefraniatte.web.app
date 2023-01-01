@@ -9,6 +9,9 @@
 body {
     font-size: 1vw;
     text-shadow: 0px 2px 1px rgba(0,0,0,0.05);
+    background: linear-gradient(to right, rgb(35, 41, 47), rgb(45, 51, 57));
+    margin: 0;
+    padding: 0;
 }
 
 #smallbox {
@@ -16,13 +19,12 @@ body {
 }
 
 #sidebarCollapse {
+    cursor: pointer;
     text-decoration: none;
-    height: auto;
     position: fixed;
     display: inline;
     float: left;
     box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
     height: 1.5vw;
     width: 1.5vw;
     background: rgb(35, 41, 47);
@@ -32,7 +34,7 @@ body {
     transition-duration: 0.3s;
     box-shadow: 5px -1px 5px -1px rgba(0, 0, 0, 0.5);
     height: 100vh;
-    overflow: auto;
+    position: fixed;
     background: rgb(35, 41, 47);
 }
 
@@ -53,8 +55,6 @@ body {
 .page-content {
     width: calc(100% - 18vw);
     margin-left: 18vw;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 
 #sidebar.active {
@@ -70,10 +70,6 @@ body {
 
 #content {
     transition-duration: 0.3s;
-}
-
-body {
-    background: linear-gradient(to right, rgb(35, 41, 47), rgb(45, 51, 57));
 }
 
 .marged {
@@ -95,11 +91,8 @@ body {
 }
 
 .resume-content {
-    margin-top: 3.3vh;
-    margin-bottom: 3.3vh;
-}
-
-.resume-content {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     text-align: justify;
 }
 
@@ -108,17 +101,17 @@ body {
     margin-left: 3vw;
 }
 
-.status {
-    text-indent: 0;
-    margin-left: 0;
+.nav li a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5vw 0.5vh;
+    width: 17vw;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
 
 .nav-item {
-    display: block;
-    object-fit: contain;
-    width: 18vw;
-    margin-left: 0.7vw;
-    margin-right: 0.7vw;
+    object-fit: fill;
 }
 
 h1 {
@@ -175,13 +168,6 @@ h5 {
     }
 }
 
-.nav ul, .nav li a, .nav li .bg-light, .nav li .bg-dark, .nav li a:hover {
-    position: none;
-    display: block;
-    padding: 0.65vw 0.65vh;
-    text-decoration: none;
-}
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -197,7 +183,7 @@ h5 {
     background: #888;
 }
 
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #eee;
-    }
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #eee;
+}
