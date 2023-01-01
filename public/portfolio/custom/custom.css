@@ -175,6 +175,13 @@ h5 {
     }
 }
 
+.nav ul, .nav li a, .nav li .bg-light, .nav li .bg-dark, .nav li a:hover {
+    position: none;
+    display: block;
+    padding: 0.65vw 0.65vh;
+    text-decoration: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
