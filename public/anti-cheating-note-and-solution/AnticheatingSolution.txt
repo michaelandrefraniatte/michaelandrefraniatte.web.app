@@ -400,3 +400,5 @@ net start winmgmt
 - For gyro aiming, Switch Pro Controller is better than PS5 DualSense controller because the gyro of this last isn't a real gyro, it's more a relative accelerometer, more cheap than a true gyro, like the one of Switch Pro Controller, very good
 - If you can't launch some games, it's probably because Windows Defender Diagnosis is set to required, blocking some game files
 - Using invasive programs on a lowend PC is destroying it, it's the case with programs for recording or streaming, even with anti-virus, be sure of the sources before using unknown programs
+- Don't play fortnite and battlefield, cheater, tryhard, nolife, fury, bitch, for every tastes and ages, you hence can be blind for life, really, it's not a joke
+- If you think you are shadowban in cod, it's probably hackers triggered it with game config files changing it, so delete it and make again your game config, even reinstall cod for prevent it and be sure there's no trace remaining
